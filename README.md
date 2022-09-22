@@ -1,5 +1,5 @@
 # ESE5190-lab1
-#real-time visualizer
+real-time visualizer
 import time
 import board
 import digitalio
