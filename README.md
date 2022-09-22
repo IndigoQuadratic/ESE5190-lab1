@@ -1,5 +1,5 @@
 # ESE5190-lab1
-real-time visualizer
+#real-time visualizer
 import time
 import board
 import digitalio
@@ -40,7 +40,6 @@ while True:
     elif gesture == 0x04:
         keyboard.press(79)
         keyboard.release_all()
-        
     r, g, b, c = sensor.color_data
     if c == 0:
         break
